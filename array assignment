@@ -25,10 +25,10 @@ Ans) var qualification = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "
 
 Q9) Declare and initialize an empty array to stroe top movies of 2015. Add movies one by one in an array. Display & length of array in your browser. (Use array's length mehtod)
 Ans) var topMovies = [];
-     topMovies [0] = "Avengers: Age of Ultron";
-     topMovies [1] = "Spectre";
-     topMovies [2] = "Jurassic World";
-     topMovies [3] = "Inside Out";
+     topMovies.push("Avengers: Age of Ultron");
+     topMovies.push("Spectre");
+     topMovies.push("Jurassic World") = ;
+     topMovies.push("Inside Out");
      console.log("Top movies of 2015", topMovies);
      console.log("Length of array is", topMovies.length);
 
@@ -66,12 +66,12 @@ Ans) var colorName = ["Red", "Blue", "Green"];
 
 a) var colorName = ["Red", "Blue", "Green"];
      var userInput = prompt("Enter Your Color Name");
-     colorName.unshift(0, 0, userInput);
+     colorName.unshift(userInput);
      console.log(colorName);
 
 b) var colorName = ["Red", "Blue", "Green"];
      var userInput = prompt("Enter Your Color Name");
-     colorName.push(0, 0, userInput);
+     colorName.push(userInput);
      console.log(colorName);
 
 c) var colorName = ["Red", "Blue", "Green"];
