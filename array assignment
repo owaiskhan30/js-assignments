@@ -139,7 +139,7 @@ Ans) var devices = [];
      console.log("Out: " + "(" + devices.shift() + ")");
      console.log(devices);
 
-Q17) Create a new array. Stroe values one by one in such a way that you can access the values in the reverse order. (LIFO-Last in First out).
+Q18) Create a new array. Stroe values one by one in such a way that you can access the values in the reverse order. (LIFO-Last in First out).
 Ans) var devices = [];
      devices.push("Keyboard");
      devices.push("Mouse");
@@ -152,3 +152,11 @@ Ans) var devices = [];
      console.log("Out: " + "(" + devices.pop() + ")");
      console.log("Out: " + "(" + devices.pop() + ")");
      console.log(devices);
+
+Q19) Write a program to store phone manufacturers (Apple, Samsung, Motrola, Nokia, Sony & Haier) in an array. Display the following dropdown/select maenu in your browser using documnent.write() method:
+Ans) var arr = ["Apple", "Samsung", "Motrola", "Nokia", "Sony", "Haier"];
+     document.write('<select>');
+     for(var i = 0; i < arr.length; i++){
+          document.write('<option value="'+ arr[i] +'">' + arr[i] + '</option>');
+     }
+     document.write('</select>');
